@@ -1,0 +1,93 @@
+import java.util.Locale;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int cod1, cod2, qte1,qte2;
+		double preco1, preco2, total;
+		
+		cod1 = sc.nextInt ();
+		cod2 = sc.nextInt ();
+		qte1 = sc.nextInt ();
+		qte2 = sc.nextInt ();
+		
+		preco1 = sc.nextDouble();
+		preco2 = sc.nextDouble();
+		total = sc.nextDouble();
+		
+		total = preco1 + preco2;
+		
+		System.out.println("total = " + preco1 + preco2);
+		
+        sc.close();   
+	}
+	
+	;
+}        
+        
+        
+        
+//Scanner sc = new Scanner(System.in);
+//Locale.setDefault(Locale.US);
+//
+//double R , A , pi = 3.14159;
+//
+//R = sc.nextDouble();
+//
+//A = pi * R * R;
+//
+//System.out.printf("A=%.4f%n", A);       
+        
+        
+        
+        
+        
+        
+        
+        //  
+        
+//        int a , b , soma;
+//        
+//        a = sc.nextInt ();
+//        b = sc.nextInt ();
+//        
+//        soma = a  b ;
+//        
+//        System.out.println("soma = " + soma);
+        
+        
+        
+
+//int a , b , c , d , dif;
+//
+//a = sc.nextInt ();
+//b = sc.nextInt ();
+//c = sc.nextInt ();
+//d = sc.nextInt ();
+//
+//dif = a * b - c * d;
+//
+//System.out.println("diferenca = " + dif);
+
+
+
+
+
+//int numero , hora ;
+//double  valorHora , salario ;
+//
+//numero = sc.nextInt ();
+//
+//hora = sc.nextInt ();
+//   
+//valorHora = sc.nextDouble();
+//
+//salario = valorHora * hora;
+//
+//System.out.println("numero = " + numero);
+//
+//System.out.printf("salario = U $% .2f%n", salario);

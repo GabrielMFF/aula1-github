@@ -1,0 +1,70 @@
+import java.util.Locale;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+        int a , b ;
+        
+        a = sc.nextInt ();
+        
+        b = sc.nextInt ();
+        
+        double  c ;
+        
+	    c = sc.nextDouble();
+	    
+	    System.out.println();
+	    
+        sc.close();   
+	}
+	
+	;
+}        
+        
+        
+        
+//Scanner sc = new Scanner(System.in);
+//Locale.setDefault(Locale.US);
+//
+//double R , A , pi = 3.14159;
+//
+//R = sc.nextDouble();
+//
+//A = pi * R * R;
+//
+//System.out.printf("A=%.4f%n", A);       
+        
+        
+        
+        
+        
+        
+        
+        //  
+        
+//        int a , b , soma;
+//        
+//        a = sc.nextInt ();
+//        b = sc.nextInt ();
+//        
+//        soma = a  b ;
+//        
+//        System.out.println("soma = " + soma);
+        
+        
+        
+
+//int a , b , c , d , dif;
+//
+//a = sc.nextInt ();
+//b = sc.nextInt ();
+//c = sc.nextInt ();
+//d = sc.nextInt ();
+//
+//dif = a * b - c * d;
+//
+//System.out.println("diferenca = " + dif);

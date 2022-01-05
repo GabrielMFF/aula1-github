@@ -1,0 +1,54 @@
+package estrutura_repetitiva;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main_java {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+	
+	     
+	 
+     char resp ;
+     do {
+    	 System.out.print("Digite a temperatura em celcius: ");
+         
+         double c = sc.nextDouble();
+         double f = 9.0 * c / 5.0 +32.0;
+    	
+         System.out.printf("equivalente em farenheit: %.1f%n" , f);
+         System.out.print("deseja repetir (s/n)? ");
+         
+       resp = sc.next().charAt(0);
+     }while (resp != 'n');
+     
+	sc.close();
+	
+	}
+	
+
+}
+//exercicio de apoio while
+//int x = sc.nextInt();
+//int soma = 0 ;
+//while (x != 0) {
+//	soma = soma + x;
+//	x = sc.nextInt();
+//}
+//	
+//System.out.println(soma);
+//exercicio de apoio for 
+//int n = sc.nextInt();
+//        int soma = 0 ;
+//		for ( int i=0; i<n; i=i+1 ) {
+//			int x = sc.nextInt();
+//			soma = soma + x ;
+//		}
+//		
+//		System.out.println(soma);
+//
+//exemplo
+//for (int i=4; i>= 0; i--) {
+//	System.out.println("valor de i: " +  i) ;
